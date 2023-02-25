@@ -254,7 +254,7 @@ class App extends Component {
     isTrue: false,
     category: 'FRUIT',
     score: 0,
-    time: 30,
+    time: 100,
     imgUrl: imagesList[0].imageUrl,
   }
 
@@ -302,7 +302,7 @@ class App extends Component {
       imgUrl: imagesList[0].imageUrl,
       category: 'FRUIT',
       isTrue: false,
-      time: 30,
+      time: 100,
     })
     this.timerId = setInterval(this.statusChange, 1000)
   }
